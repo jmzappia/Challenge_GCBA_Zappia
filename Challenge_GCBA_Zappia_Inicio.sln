@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Documentación", "00 - Documentación", "{8E176E79-3F1B-42D9-A8D8-FD97FE0B60FB}"
+	ProjectSection(SolutionItems) = preProject
+		Challenge_GCBA_Zappia\00 - Documentación\ChallengeGCBADataSet.pdf = Challenge_GCBA_Zappia\00 - Documentación\ChallengeGCBADataSet.pdf
+		Challenge_GCBA_Zappia\00 - Documentación\sql.jpg = Challenge_GCBA_Zappia\00 - Documentación\sql.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Solución VS2022", "01 - Solución VS2022", "{CC909411-F6CC-4AEA-B3CF-B159F0B7F360}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Solución SQL", "02 - Solución SQL", "{944A810A-C9C4-4C92-B67C-CC5D8A433C0C}"
+	ProjectSection(SolutionItems) = preProject
+		Challenge_GCBA_Zappia\02 - Solución SQL\01 - SQLIniciar.sql = Challenge_GCBA_Zappia\02 - Solución SQL\01 - SQLIniciar.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\02 - SQL SchemaInicial.sql = Challenge_GCBA_Zappia\02 - Solución SQL\02 - SQL SchemaInicial.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\03 - ClientesDB_Recuperada.sql = Challenge_GCBA_Zappia\02 - Solución SQL\03 - ClientesDB_Recuperada.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\04 - ClientesDB_Recuperada_Corregida.sql = Challenge_GCBA_Zappia\02 - Solución SQL\04 - ClientesDB_Recuperada_Corregida.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\05 - Genera dboClientes.sql = Challenge_GCBA_Zappia\02 - Solución SQL\05 - Genera dboClientes.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\06 - Genera_dboItems.sql = Challenge_GCBA_Zappia\02 - Solución SQL\06 - Genera_dboItems.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\07 - Genera_dboCategorias.sql = Challenge_GCBA_Zappia\02 - Solución SQL\07 - Genera_dboCategorias.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\08 - Genera_dboOrdenes.sql = Challenge_GCBA_Zappia\02 - Solución SQL\08 - Genera_dboOrdenes.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\09 - Generar_Indices.sql = Challenge_GCBA_Zappia\02 - Solución SQL\09 - Generar_Indices.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\10 - Consulta_Prueba.sql = Challenge_GCBA_Zappia\02 - Solución SQL\10 - Consulta_Prueba.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\11 - SQLQuery1.sql = Challenge_GCBA_Zappia\02 - Solución SQL\11 - SQLQuery1.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\12 - SQLQuery2.sql = Challenge_GCBA_Zappia\02 - Solución SQL\12 - SQLQuery2.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\13 - SQLQuery3.sql = Challenge_GCBA_Zappia\02 - Solución SQL\13 - SQLQuery3.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\14 - Nombre_Cliente_Empieza_Con_M.sql = Challenge_GCBA_Zappia\02 - Solución SQL\14 - Nombre_Cliente_Empieza_Con_M.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\15 - Cumplen_Años_Hoy.sql = Challenge_GCBA_Zappia\02 - Solución SQL\15 - Cumplen_Años_Hoy.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\16 - Total_Registros_Ventas_Mensuales.sql = Challenge_GCBA_Zappia\02 - Solución SQL\16 - Total_Registros_Ventas_Mensuales.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\17 - Cantidad_Productos_Vendida.sql = Challenge_GCBA_Zappia\02 - Solución SQL\17 - Cantidad_Productos_Vendida.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\18 - Suma_Importe_Total_Enero_2022.sql = Challenge_GCBA_Zappia\02 - Solución SQL\18 - Suma_Importe_Total_Enero_2022.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\19 - Enero_2022_Todo_Junto.sql = Challenge_GCBA_Zappia\02 - Solución SQL\19 - Enero_2022_Todo_Junto.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\20 - Categoria_Celulares.sql = Challenge_GCBA_Zappia\02 - Solución SQL\20 - Categoria_Celulares.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\21 - Top10_Productos_Mas_Vendidos.sql = Challenge_GCBA_Zappia\02 - Solución SQL\21 - Top10_Productos_Mas_Vendidos.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\22 - StotredProcedure_Importe_Categorias.sql = Challenge_GCBA_Zappia\02 - Solución SQL\22 - StotredProcedure_Importe_Categorias.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\Challenge_GCBA_Zappia_SMSS.ssmssln = Challenge_GCBA_Zappia\02 - Solución SQL\Challenge_GCBA_Zappia_SMSS.ssmssln
+		Challenge_GCBA_Zappia\02 - Solución SQL\clientes.accdb = Challenge_GCBA_Zappia\02 - Solución SQL\clientes.accdb
+		Challenge_GCBA_Zappia\02 - Solución SQL\clientes.xls = Challenge_GCBA_Zappia\02 - Solución SQL\clientes.xls
+		Challenge_GCBA_Zappia\02 - Solución SQL\ClientesOk.csv = Challenge_GCBA_Zappia\02 - Solución SQL\ClientesOk.csv
+		Challenge_GCBA_Zappia\02 - Solución SQL\clientesok.dbf = Challenge_GCBA_Zappia\02 - Solución SQL\clientesok.dbf
+		Challenge_GCBA_Zappia\02 - Solución SQL\ClientesOk.xls = Challenge_GCBA_Zappia\02 - Solución SQL\ClientesOk.xls
+		Challenge_GCBA_Zappia\02 - Solución SQL\sql.jpg = Challenge_GCBA_Zappia\02 - Solución SQL\sql.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Power BI", "03 - Power BI", "{375D9D06-C54A-42BE-9EEB-A8908601077F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{10190ADC-9BFD-45D4-B9F7-9CDFBDC1C9B0}"
+	ProjectSection(SolutionItems) = preProject
+		Challenge_GCBA_Zappia\04 - Leer_Antes.txt = Challenge_GCBA_Zappia\04 - Leer_Antes.txt
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Challenge_GCBA_Zappia_VS2022", "Challenge_GCBA_Zappia\01 - Solución VS2022\Challenge_GCBA_Zappia_VS2022.sqlproj", "{BAC0E7F8-5214-4263-AC19-D00CF9A9306E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Pruebas y Recuperación de datos", "01 - Pruebas y Recuperación de datos", "{0A0904C1-9BD1-41BB-BF34-2683AD8D6C65}"
+	ProjectSection(SolutionItems) = preProject
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\00 - BD-Inmuebles.xls = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\00 - BD-Inmuebles.xls
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\00 - Clientes Listo.xls = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\00 - Clientes Listo.xls
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\00 - Clientes.xlsx = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\00 - Clientes.xlsx
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\00 - Clientes1.csv = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\00 - Clientes1.csv
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\00 - Otros.xls = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\00 - Otros.xls
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\00 - Proovedores.xls = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\00 - Proovedores.xls
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\03 - ClientesDB_Recuperada.sql = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\03 - ClientesDB_Recuperada.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\categorias.DBF = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\categorias.DBF
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\clientes.accdb = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\clientes.accdb
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\clientes.DBF = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\clientes.DBF
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\clientesdb.DBF = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\clientesdb.DBF
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\clientesdb.sql = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\clientesdb.sql
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\ClientesOk - copia.dbf = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\ClientesOk - copia.dbf
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\clientesok.BAK = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\clientesok.BAK
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\ClientesOk.csv = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\ClientesOk.csv
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\clientesok.dbf = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\clientesok.dbf
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\ClientesOk.xls = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\ClientesOk.xls
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\completar.BAK = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\completar.BAK
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\completar.FXP = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\completar.FXP
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\completar.prg = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\completar.prg
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\items.DBF = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\items.DBF
+		Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\orden.DBF = Challenge_GCBA_Zappia\02 - Solución SQL\00 - Pruebas SQL y Recuperaciones Con Datos\orden.DBF
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAC0E7F8-5214-4263-AC19-D00CF9A9306E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC0E7F8-5214-4263-AC19-D00CF9A9306E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC0E7F8-5214-4263-AC19-D00CF9A9306E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BAC0E7F8-5214-4263-AC19-D00CF9A9306E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC0E7F8-5214-4263-AC19-D00CF9A9306E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC0E7F8-5214-4263-AC19-D00CF9A9306E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BAC0E7F8-5214-4263-AC19-D00CF9A9306E} = {CC909411-F6CC-4AEA-B3CF-B159F0B7F360}
+		{0A0904C1-9BD1-41BB-BF34-2683AD8D6C65} = {944A810A-C9C4-4C92-B67C-CC5D8A433C0C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51BC0FEA-92C5-41E2-837C-2A2953133544}
+	EndGlobalSection
+EndGlobal

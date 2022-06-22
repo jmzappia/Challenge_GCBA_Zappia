@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7AE46686-0A50-4890-B0D1-A9B4576AA5B1}"
+	ProjectSection(SolutionItems) = preProject
+		01 - SQLIniciar.sql = 01 - SQLIniciar.sql
+		02 - SQL SchemaInicial.sql = 02 - SQL SchemaInicial.sql
+		03 - ClientesDB_Recuperada.sql = 03 - ClientesDB_Recuperada.sql
+		04 - ClientesDB_Recuperada_Corregida.sql = 04 - ClientesDB_Recuperada_Corregida.sql
+		05 - Genera dboClientes.sql = 05 - Genera dboClientes.sql
+		06 - Genera_dboItems.sql = 06 - Genera_dboItems.sql
+		07 - Genera_dboCategorias.sql = 07 - Genera_dboCategorias.sql
+		08 - Genera_dboOrdenes.sql = 08 - Genera_dboOrdenes.sql
+		09 - Generar_Indices.sql = 09 - Generar_Indices.sql
+		10 - Consulta_Prueba.sql = 10 - Consulta_Prueba.sql
+		11 - SQLQuery1.sql = 11 - SQLQuery1.sql
+		12 - SQLQuery2.sql = 12 - SQLQuery2.sql
+		13 - SQLQuery3.sql = 13 - SQLQuery3.sql
+		14 - Nombre_Cliente_Empieza_Con_M.sql = 14 - Nombre_Cliente_Empieza_Con_M.sql
+		15 - Cumplen_Años_Hoy.sql = 15 - Cumplen_Años_Hoy.sql
+		16 - Total_Registros_Ventas_Mensuales.sql = 16 - Total_Registros_Ventas_Mensuales.sql
+		17 - Cantidad_Productos_Vendida.sql = 17 - Cantidad_Productos_Vendida.sql
+		18 - Suma_Importe_Total_Enero_2022.sql = 18 - Suma_Importe_Total_Enero_2022.sql
+		19 - Enero_2022_Todo_Junto.sql = 19 - Enero_2022_Todo_Junto.sql
+		20 - Categoria_Celulares.sql = 20 - Categoria_Celulares.sql
+		21 - Top10_Productos_Mas_Vendidos.sql = 21 - Top10_Productos_Mas_Vendidos.sql
+		22 - StotredProcedure_Importe_Categorias.sql = 22 - StotredProcedure_Importe_Categorias.sql
+		clientes.accdb = clientes.accdb
+		clientes.xls = clientes.xls
+		ClientesOk.csv = ClientesOk.csv
+		clientesok.dbf = clientesok.dbf
+		ClientesOk.xls = ClientesOk.xls
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72F7C1E3-D05C-485D-B279-2F470299713C}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {268F2736-78E1-4A26-A85D-BC2BA40BECF6}
+	EndGlobalSection
+EndGlobal

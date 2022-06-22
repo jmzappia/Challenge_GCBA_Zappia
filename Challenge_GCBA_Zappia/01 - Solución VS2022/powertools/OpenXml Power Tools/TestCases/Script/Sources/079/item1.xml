@@ -1,0 +1,21 @@
+<div class="vcard" style="background-color: F9C; width: 300px; height: 100px; padding: 10px; float: right; text-align: right">
+  <span class="fn n">
+    <span class="honorific-prefix">Mr.</span>
+    <span class="given-name">John</span>
+    <span class="family-name">Smith</span>
+  </span>
+  <br/>
+  <span class="adr">
+    <span class="street-address">none</span>
+    <br/>
+    <span class="locality">San Jose</span>,
+    <abbr class="region">CR</abbr>
+    <span class="postal-code">1000</span>
+  </span>
+  <br/>
+  <a class="email" href="mailto:john.smith@staffdotnet.com">john.smith@staffdotnet.com</a>
+  <br/>
+  <span class="tel">
+    Phone: <span class="value">+1-111-111-1111</span>
+  </span>
+</div>

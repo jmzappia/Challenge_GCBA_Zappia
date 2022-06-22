@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4470E36F-6B56-4740-8DA3-685A13EFDE58}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OpenXml.PowerTools</RootNamespace>
+    <AssemblyName>OpenXml.PowerTools</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>%24/PowerTools/OpenXml Power Tools</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>https://tfs07.codeplex.com</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\OpenXml.PowerTools.XML</DocumentationFile>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRules>-Microsoft.Design#CA1012;-Microsoft.Design#CA2210;-Microsoft.Design#CA1040;-Microsoft.Design#CA1005;-Microsoft.Design#CA1020;-Microsoft.Design#CA1021;-Microsoft.Design#CA1010;-Microsoft.Design#CA1011;-Microsoft.Design#CA1009;-Microsoft.Design#CA1050;-Microsoft.Design#CA1026;-Microsoft.Design#CA1019;-Microsoft.Design#CA1031;-Microsoft.Design#CA1047;-Microsoft.Design#CA1000;-Microsoft.Design#CA1048;-Microsoft.Design#CA1051;-Microsoft.Design#CA1002;-Microsoft.Design#CA1061;-Microsoft.Design#CA1006;-Microsoft.Design#CA1046;-Microsoft.Design#CA1045;-Microsoft.Design#CA1065;-Microsoft.Design#CA1038;-Microsoft.Design#CA1008;-Microsoft.Design#CA1028;-Microsoft.Design#CA1064;-Microsoft.Design#CA1004;-Microsoft.Design#CA1035;-Microsoft.Design#CA1063;-Microsoft.Design#CA1032;-Microsoft.Design#CA1023;-Microsoft.Design#CA1033;-Microsoft.Design#CA1039;-Microsoft.Design#CA1016;-Microsoft.Design#CA1014;-Microsoft.Design#CA1017;-Microsoft.Design#CA1018;-Microsoft.Design#CA1027;-Microsoft.Design#CA1059;-Microsoft.Design#CA1060;-Microsoft.Design#CA1034;-Microsoft.Design#CA1013;-Microsoft.Design#CA1036;-Microsoft.Design#CA1044;-Microsoft.Design#CA1041;-Microsoft.Design#CA1025;-Microsoft.Design#CA1052;-Microsoft.Design#CA1053;-Microsoft.Design#CA1057;-Microsoft.Design#CA1058;-Microsoft.Design#CA1001;-Microsoft.Design#CA1049;-Microsoft.Design#CA1054;-Microsoft.Design#CA1056;-Microsoft.Design#CA1055;-Microsoft.Design#CA1030;-Microsoft.Design#CA1003;-Microsoft.Design#CA1007;-Microsoft.Design#CA1043;-Microsoft.Design#CA1024;-Microsoft.Maintainability#CA1506;-Microsoft.Maintainability#CA1502;-Microsoft.Maintainability#CA1501;-Microsoft.Maintainability#CA1505;-Microsoft.Maintainability#CA1504;-Microsoft.Maintainability#CA1500;-Microsoft.Mobility#CA1600;-Microsoft.Mobility#CA1601;-Microsoft.Naming#CA1702;-Microsoft.Naming#CA1700;-Microsoft.Naming#CA1712;-Microsoft.Naming#CA1713;-Microsoft.Naming#CA1714;-Microsoft.Naming#CA1709;-Microsoft.Naming#CA1704;-Microsoft.Naming#CA1708;-Microsoft.Naming#CA1715;-Microsoft.Naming#CA1710;-Microsoft.Naming#CA1720;-Microsoft.Naming#CA1707;-Microsoft.Naming#CA1722;-Microsoft.Naming#CA1711;-Microsoft.Naming#CA1716;-Microsoft.Naming#CA1717;-Microsoft.Naming#CA1725;-Microsoft.Naming#CA1719;-Microsoft.Naming#CA1721;-Microsoft.Naming#CA1701;-Microsoft.Naming#CA1703;-Microsoft.Naming#CA1724;-Microsoft.Naming#CA1726;-Microsoft.Performance#CA1809;-Microsoft.Performance#CA1811;-Microsoft.Performance#CA1812;-Microsoft.Performance#CA1813;-Microsoft.Performance#CA1823;-Microsoft.Performance#CA1800;-Microsoft.Performance#CA1805;-Microsoft.Performance#CA1810;-Microsoft.Performance#CA1824;-Microsoft.Performance#CA1822;-Microsoft.Performance#CA1815;-Microsoft.Performance#CA1814;-Microsoft.Performance#CA1819;-Microsoft.Performance#CA1821;-Microsoft.Performance#CA1804;-Microsoft.Performance#CA1820;-Microsoft.Performance#CA1802;-Microsoft.Portability#CA1901;-Microsoft.Portability#CA1900;-Microsoft.Reliability#CA2001;-Microsoft.Reliability#CA2002;-Microsoft.Reliability#CA2003;-Microsoft.Reliability#CA2004;-Microsoft.Reliability#CA2006;-Microsoft.Security#CA2116;-Microsoft.Security#CA2117;-Microsoft.Security#CA2105;-Microsoft.Security#CA2115;-Microsoft.Security#CA2102;-Microsoft.Security#CA2104;-Microsoft.Security#CA2122;-Microsoft.Security#CA2114;-Microsoft.Security#CA2123;-Microsoft.Security#CA2111;-Microsoft.Security#CA2108;-Microsoft.Security#CA2107;-Microsoft.Security#CA2103;-Microsoft.Security#CA2118;-Microsoft.Security#CA2109;-Microsoft.Security#CA2119;-Microsoft.Security#CA2106;-Microsoft.Security#CA2112;-Microsoft.Security#CA2120;-Microsoft.Security#CA2121;-Microsoft.Security#CA2126;-Microsoft.Security#CA2124;-Microsoft.Security#CA2127;-Microsoft.Security#CA2128;-Microsoft.Security#CA2129;-Microsoft.Usage#CA2243;-Microsoft.Usage#CA2236;-Microsoft.Usage#CA1816;-Microsoft.Usage#CA2227;-Microsoft.Usage#CA2213;-Microsoft.Usage#CA2216;-Microsoft.Usage#CA2214;-Microsoft.Usage#CA2222;-Microsoft.Usage#CA1806;-Microsoft.Usage#CA2217;-Microsoft.Usage#CA2212;-Microsoft.Usage#CA2219;-Microsoft.Usage#CA2201;-Microsoft.Usage#CA2228;-Microsoft.Usage#CA2221;-Microsoft.Usage#CA2220;-Microsoft.Usage#CA2240;-Microsoft.Usage#CA2229;-Microsoft.Usage#CA2238;-Microsoft.Usage#CA2207;-Microsoft.Usage#CA2208;-Microsoft.Usage#CA2235;-Microsoft.Usage#CA2237;-Microsoft.Usage#CA2232;-Microsoft.Usage#CA2223;-Microsoft.Usage#CA2211;-Microsoft.Usage#CA2233;-Microsoft.Usage#CA2225;-Microsoft.Usage#CA2226;-Microsoft.Usage#CA2231;-Microsoft.Usage#CA2224;-Microsoft.Usage#CA2218;-Microsoft.Usage#CA2234;-Microsoft.Usage#CA2239;-Microsoft.Usage#CA2200;-Microsoft.Usage#CA1801;-Microsoft.Usage#CA2242;-Microsoft.Usage#CA2205;-Microsoft.Usage#CA2230</CodeAnalysisRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=1.0.1723.0, Culture=neutral, PublicKeyToken=5eaab2f85ae30ae0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\OpenXMLSDK\1.0.1723\lib\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management.Automation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\BackgroundAccessor.cs" />
+    <Compile Include="Classes\ChangeAccessor.cs" />
+    <Compile Include="Classes\ChartsheetAccessor.cs" />
+    <Compile Include="Classes\CommentAccessor.cs" />
+    <Compile Include="Classes\ContentFormatAccessor.cs" />
+    <Compile Include="Classes\ContentStyleAccessor.cs" />
+    <Compile Include="Classes\CorePropertiesAccesor.cs" />
+    <Compile Include="Classes\CustomPropertiesAccesor.cs" />
+    <Compile Include="Classes\DocumentBuilder.cs" />
+    <Compile Include="Classes\DocumentExtensions.cs" />
+    <Compile Include="Classes\IndexAccessor.cs" />
+    <Compile Include="Classes\SharedStringsAccesor.cs" />
+    <Compile Include="Classes\SpreadSheetStyleAccessor.cs" />
+    <Compile Include="Classes\SpreadSheetTableAccesor.cs" />
+    <Compile Include="Classes\TOAAccessor.cs" />
+    <Compile Include="Classes\TOFAccessor.cs" />
+    <Compile Include="Classes\TOCAccessor.cs" />
+    <Compile Include="Classes\CustomXmlAccessor.cs" />
+    <Compile Include="Classes\DigitalSignatureAccessor.cs" />
+    <Compile Include="Classes\DocumentManager.cs" />
+    <Compile Include="Classes\FooterAccessor.cs" />
+    <Compile Include="Classes\HeaderAccessor.cs" />
+    <Compile Include="Classes\OpenXmlDocument.cs" />
+    <Compile Include="Classes\SpreadsheetDocument.cs" />
+    <Compile Include="Classes\PictureAccessor.cs" />
+    <Compile Include="Classes\StyleAccessor.cs" />
+    <Compile Include="Classes\SettingAccessor.cs" />
+    <Compile Include="Classes\ThemeAccessor.cs" />
+    <Compile Include="Classes\WatermarkAccesor.cs" />
+    <Compile Include="Classes\WordprocessingDocument.cs" />
+    <Compile Include="Classes\WordprocessingDocumentManager.cs" />
+    <Compile Include="Classes\SpreadsheetDocumentManager.cs" />
+    <Compile Include="Classes\PowerToolsExtensions.cs" />
+    <Compile Include="Classes\WorksheetAccessor.cs" />
+    <Compile Include="Cmdlets\AcceptOpenXmlChangeCmdlet.cs" />
+    <Compile Include="Cmdlets\AddOpenXmlDigitalSignatureCmdlet.cs" />
+    <Compile Include="Cmdlets\AddOpenXmlSpreadSheetTableCmdlet.cs" />
+    <Compile Include="Cmdlets\MergeOpenXmlDocumentCmdlet.cs" />
+    <Compile Include="Cmdlets\RemoveOpenXmlDigitalSignatureCmdlet.cs" />
+    <Compile Include="Cmdlets\AddOpenXmlDocumentIndexCmdlet.cs" />
+    <Compile Include="Cmdlets\GetOpenXmlCommentCmdlet.cs" />
+    <Compile Include="Cmdlets\AddOpenXmlDocumentTOACmdlet.cs" />
+    <Compile Include="Cmdlets\AddOpenXmlDocumentTOFCmdlet.cs" />
+    <Compile Include="Cmdlets\RemoveOpenXmlPersonalInformationCmdlet.cs" />
+    <Compile Include="Cmdlets\SelectOpenXmlStringCmdlet.cs" />
+    <Compile Include="Cmdlets\SetOpenXmlSpreadSheetCellStyleCmdlet.cs" />
+    <Compile Include="Cmdlets\SetOpenXmlSpreadSheetCellValueCmdlet.cs" />
+    <Compile Include="Cmdlets\SetOpenXmlSpreadSheetColumnWidthCmdlet.cs" />
+    <Compile Include="Cmdlets\SetOpenXmlThemeCmdlet.cs" />
+    <Compile Include="Cmdlets\AddOpenXmlDocumentTOCCmdlet.cs" />
+    <Compile Include="Cmdlets\GetOpenXmlThemeCmdlet.cs" />
+    <Compile Include="Cmdlets\ExportOpenXmlWordprocessingCmdlet.cs" />
+    <Compile Include="Cmdlets\GetOpenXmlBackgroundCmdlet.cs" />
+    <Compile Include="Cmdlets\GetOpenXmlCustomXmlDataCmdlet.cs" />
+    <Compile Include="Cmdlets\GetOpenXmlDigitalSignatureCmdlet.cs" />
+    <Compile Include="Cmdlets\GetOpenXmlDocumentCmdlet.cs" />
+    <Compile Include="Cmdlets\GetOpenXmlFooterCmdlet.cs" />
+    <Compile Include="Cmdlets\GetOpenXmlHeaderCmdlet.cs" />
+    <Compile Include="Cmdlets\GetOpenXmlStyleCmdlet.cs" />
+    <Compile Include="Cmdlets\AddOpenXmlPictureCmdlet.cs" />
+    <Compile Include="Cmdlets\AddOpenXmlContentCmdlet.cs" />
+    <Compile Include="Cmdlets\GetOpenXmlWatermarkCmdlet.cs" />
+    <Compile Include="Cmdlets\LockOpenXmlDocumentCmdlet.cs" />
+    <Compile Include="Cmdlets\ExportOpenXmlSpreadsheetCmdlet.cs" />
+    <Compile Include="Cmdlets\OpenXmlCmdlet.cs" />
+    <Compile Include="Cmdlets\RemoveOpenXmlCommentCmdlet.cs" />
+    <Compile Include="Cmdlets\SetOpenXmlBackgroundCmdlet.cs" />
+    <Compile Include="Cmdlets\SetOpenXmlContentFormatCmdlet.cs" />
+    <Compile Include="Cmdlets\SetOpenXmlContentStyleCmdlet.cs" />
+    <Compile Include="Cmdlets\SetOpenXmlCustomXmlDataCmdlet.cs" />
+    <Compile Include="Cmdlets\SetOpenXmlFooterCmdlet.cs" />
+    <Compile Include="Cmdlets\SetOpenXmlHeaderCmdlet.cs" />
+    <Compile Include="Cmdlets\SetOpenXmlStyleCmdlet.cs" />
+    <Compile Include="Cmdlets\ExportOpenXmlToHtmlCmdlet.cs" />
+    <Compile Include="Cmdlets\SetOpenXmlWatermarkCmdlet.cs" />
+    <Compile Include="Cmdlets\SplitOpenXmlDocumentCmdlet.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="OpenXmlPowerToolsSnapin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OpenXml.PowerTools.dll-Help.xml" />
+    <Content Include="TestCases\Script\Sources\020\020.xsl" />
+    <Content Include="TestCases\Script\Sources\021\021.xsl" />
+    <Content Include="TestCases\Script\Sources\022\022.xsl" />
+    <Content Include="TestCases\Script\Sources\023\023.xsl" />
+    <Content Include="TestCases\Script\Sources\024\024.xsl" />
+    <Content Include="TestCases\Script\Sources\025\025.xsl" />
+    <Content Include="TestCases\Script\Sources\026\026.xsl" />
+    <Content Include="TestCases\Script\Sources\027\027.xsl" />
+    <Content Include="TestCases\Script\Sources\028\028.xsl" />
+    <Content Include="TestCases\Script\Sources\029\029.xsl" />
+    <Content Include="TestCases\Script\Sources\056\056.jpg" />
+    <Content Include="TestCases\Script\Sources\057\057.jpg" />
+    <Content Include="TestCases\Script\Sources\058\058.jpg" />
+    <Content Include="TestCases\Script\Sources\070\styles.xml" />
+    <Content Include="TestCases\Script\Sources\071\styles.xml" />
+    <Content Include="TestCases\Script\Sources\072\styles.xml" />
+    <Content Include="TestCases\Script\Sources\073\styles.xml" />
+    <Content Include="TestCases\Script\Sources\074\styles.xml" />
+    <Content Include="TestCases\Script\Sources\075\styles.xml" />
+    <Content Include="TestCases\Script\Sources\076\item1.xml" />
+    <Content Include="TestCases\Script\Sources\077\nonexistingitem.xml" />
+    <Content Include="TestCases\Script\Sources\078\item1.xml" />
+    <Content Include="TestCases\Script\Sources\079\item1.xml" />
+    <Content Include="TestCases\Script\Sources\080\footer1.xml" />
+    <Content Include="TestCases\Script\Sources\080\footer2.xml" />
+    <Content Include="TestCases\Script\Sources\080\footer3.xml" />
+    <Content Include="TestCases\Script\Sources\081\footer1.xml" />
+    <Content Include="TestCases\Script\Sources\081\footer2.xml" />
+    <Content Include="TestCases\Script\Sources\081\footer3.xml" />
+    <Content Include="TestCases\Script\Sources\082\footer1.xml" />
+    <Content Include="TestCases\Script\Sources\082\footer2.xml" />
+    <Content Include="TestCases\Script\Sources\082\footer3.xml" />
+    <Content Include="TestCases\Script\Sources\083\header1.xml" />
+    <Content Include="TestCases\Script\Sources\083\header2.xml" />
+    <Content Include="TestCases\Script\Sources\083\header3.xml" />
+    <Content Include="TestCases\Script\Sources\084\header1.xml" />
+    <Content Include="TestCases\Script\Sources\084\header2.xml" />
+    <Content Include="TestCases\Script\Sources\084\header3.xml" />
+    <Content Include="TestCases\Script\Sources\085\style.xml" />
+    <Content Include="TestCases\Script\Sources\086\style.xml" />
+    <Content Include="TestCases\Script\Sources\087\style.xml" />
+    <Content Include="TestCases\Script\Sources\088\header1.xml" />
+    <Content Include="TestCases\Script\Sources\088\header2.xml" />
+    <Content Include="TestCases\Script\Sources\088\header3.xml" />
+    <Content Include="TestCases\Script\Sources\094\styles.xml" />
+    <Content Include="TestCases\Script\Sources\096\096.xsl" />
+    <Content Include="TestCases\Script\Sources\096\header1.xml" />
+    <Content Include="TestCases\Script\Sources\096\header2.xml" />
+    <Content Include="TestCases\Script\Sources\096\header3.xml" />
+    <Content Include="TestCases\Script\Sources\097\styles.xml" />
+    <Content Include="TestCases\Script\Sources\113\picture.jpg" />
+    <Content Include="TestCases\Script\Sources\114\picture.jpg" />
+    <Content Include="TestCases\Script\Sources\115\picture.jpg" />
+    <Content Include="TestCases\Script\Sources\116\invalidPicture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TestCases\Script\002.ps1" />
+    <None Include="TestCases\Script\003.ps1" />
+    <None Include="TestCases\Script\004.ps1" />
+    <None Include="TestCases\Script\005.ps1" />
+    <None Include="TestCases\Script\006.ps1" />
+    <None Include="TestCases\Script\007.ps1" />
+    <None Include="TestCases\Script\008.ps1" />
+    <None Include="TestCases\Script\009.ps1" />
+    <None Include="TestCases\Script\010.ps1" />
+    <None Include="TestCases\Script\011.ps1" />
+    <None Include="TestCases\Script\012.ps1" />
+    <None Include="TestCases\Script\013.ps1" />
+    <None Include="TestCases\Script\014.ps1" />
+    <None Include="TestCases\Script\015.ps1" />
+    <None Include="TestCases\Script\016.ps1" />
+    <None Include="TestCases\Script\017.ps1" />
+    <None Include="TestCases\Script\018.ps1" />
+    <None Include="TestCases\Script\019.ps1" />
+    <None Include="TestCases\Script\020.ps1" />
+    <None Include="TestCases\Script\021.ps1" />
+    <None Include="TestCases\Script\022.ps1" />
+    <None Include="TestCases\Script\023.ps1" />
+    <None Include="TestCases\Script\024.ps1" />
+    <None Include="TestCases\Script\025.ps1" />
+    <None Include="TestCases\Script\026.ps1" />
+    <None Include="TestCases\Script\027.ps1" />
+    <None Include="TestCases\Script\028.ps1" />
+    <None Include="TestCases\Script\029.ps1" />
+    <None Include="TestCases\Script\030.ps1" />
+    <None Include="TestCases\Script\031.ps1" />
+    <None Include="TestCases\Script\032.ps1" />
+    <None Include="TestCases\Script\033.ps1" />
+    <None Include="TestCases\Script\034.ps1" />
+    <None Include="TestCases\Script\035.ps1" />
+    <None Include="TestCases\Script\036.ps1" />
+    <None Include="TestCases\Script\037.ps1" />
+    <None Include="TestCases\Script\038.ps1" />
+    <None Include="TestCases\Script\039.ps1" />
+    <None Include="TestCases\Script\040.ps1" />
+    <None Include="TestCases\Script\041.ps1" />
+    <None Include="TestCases\Script\042.ps1" />
+    <None Include="TestCases\Script\043.ps1" />
+    <None Include="TestCases\Script\044.ps1" />
+    <None Include="TestCases\Script\045.ps1" />
+    <None Include="TestCases\Script\046.ps1" />
+    <None Include="TestCases\Script\047.ps1" />
+    <None Include="TestCases\Script\048.ps1" />
+    <None Include="TestCases\Script\049.ps1" />
+    <None Include="TestCases\Script\050.ps1" />
+    <None Include="TestCases\Script\051.ps1" />
+    <None Include="TestCases\Script\052.ps1" />
+    <None Include="TestCases\Script\053.ps1" />
+    <None Include="TestCases\Script\054.ps1" />
+    <None Include="TestCases\Script\055.ps1" />
+    <None Include="TestCases\Script\056.ps1" />
+    <None Include="TestCases\Script\057.ps1" />
+    <None Include="TestCases\Script\058.ps1" />
+    <None Include="TestCases\Script\059.ps1" />
+    <None Include="TestCases\Script\060.ps1" />
+    <None Include="TestCases\Script\061.ps1" />
+    <None Include="TestCases\Script\062.ps1" />
+    <None Include="TestCases\Script\063.ps1" />
+    <None Include="TestCases\Script\064.ps1" />
+    <None Include="TestCases\Script\065.ps1" />
+    <None Include="TestCases\Script\066.ps1" />
+    <None Include="TestCases\Script\067.ps1" />
+    <None Include="TestCases\Script\068.ps1" />
+    <None Include="TestCases\Script\069.ps1" />
+    <None Include="TestCases\Script\070.ps1" />
+    <None Include="TestCases\Script\071.ps1" />
+    <None Include="TestCases\Script\072.ps1" />
+    <None Include="TestCases\Script\073.ps1" />
+    <None Include="TestCases\Script\074.ps1" />
+    <None Include="TestCases\Script\075.ps1" />
+    <None Include="TestCases\Script\076.ps1" />
+    <None Include="TestCases\Script\077.ps1" />
+    <None Include="TestCases\Script\078.ps1" />
+    <None Include="TestCases\Script\079.ps1" />
+    <None Include="TestCases\Script\080.ps1" />
+    <None Include="TestCases\Script\081.ps1" />
+    <None Include="TestCases\Script\082.ps1" />
+    <None Include="TestCases\Script\083.ps1" />
+    <None Include="TestCases\Script\084.ps1" />
+    <None Include="TestCases\Script\085.ps1" />
+    <None Include="TestCases\Script\086.ps1" />
+    <None Include="TestCases\Script\087.ps1" />
+    <None Include="TestCases\Script\088.ps1" />
+    <None Include="TestCases\Script\089.ps1" />
+    <None Include="TestCases\Script\090.ps1" />
+    <None Include="TestCases\Script\091.ps1" />
+    <None Include="TestCases\Script\092.ps1" />
+    <None Include="TestCases\Script\093.ps1" />
+    <None Include="TestCases\Script\094.ps1" />
+    <None Include="TestCases\Script\095.ps1" />
+    <None Include="TestCases\Script\096.ps1" />
+    <None Include="TestCases\Script\097.ps1" />
+    <None Include="TestCases\Script\098.ps1" />
+    <None Include="TestCases\Script\099.ps1" />
+    <None Include="TestCases\Script\100.ps1" />
+    <None Include="TestCases\Script\101.ps1" />
+    <None Include="TestCases\Script\102.ps1" />
+    <None Include="TestCases\Script\103.ps1" />
+    <None Include="TestCases\Script\104.ps1" />
+    <None Include="TestCases\Script\105.ps1" />
+    <None Include="TestCases\Script\106.ps1" />
+    <None Include="TestCases\Script\107.ps1" />
+    <None Include="TestCases\Script\108.ps1" />
+    <None Include="TestCases\Script\109.ps1" />
+    <None Include="TestCases\Script\110.ps1" />
+    <None Include="TestCases\Script\111.ps1" />
+    <None Include="TestCases\Script\112.ps1" />
+    <None Include="TestCases\Script\133.ps1" />
+    <None Include="TestCases\Script\134.ps1" />
+    <None Include="TestCases\Script\135.ps1" />
+    <None Include="TestCases\Script\136.ps1" />
+    <None Include="TestCases\Script\Clean.ps1" />
+    <None Include="TestCases\Script\CleanAll.ps1" />
+    <None Include="TestCases\Script\114.ps1" />
+    <None Include="TestCases\Script\115.ps1" />
+    <None Include="TestCases\Script\116.ps1" />
+    <None Include="TestCases\Script\117.ps1" />
+    <None Include="TestCases\Script\118.ps1" />
+    <None Include="TestCases\Script\119.ps1" />
+    <None Include="TestCases\Script\120.ps1" />
+    <None Include="TestCases\Script\121.ps1" />
+    <None Include="TestCases\Script\122.ps1" />
+    <None Include="TestCases\Script\123.ps1" />
+    <None Include="TestCases\Script\124.ps1" />
+    <None Include="TestCases\Script\125.ps1" />
+    <None Include="TestCases\Script\126.ps1" />
+    <None Include="TestCases\Script\127.ps1" />
+    <None Include="TestCases\Script\128.ps1" />
+    <None Include="TestCases\Script\129.ps1" />
+    <None Include="TestCases\Script\130.ps1" />
+    <None Include="TestCases\Script\131.ps1" />
+    <None Include="TestCases\Script\132.ps1" />
+    <None Include="TestCases\Script\RunAll.ps1" />
+    <None Include="TestCases\Script\113.ps1" />
+    <None Include="TestCases\Script\Sources\001\001.docx" />
+    <None Include="TestCases\Script\Sources\002\002.docx" />
+    <None Include="TestCases\Script\Sources\003\003.docx" />
+    <None Include="TestCases\Script\Sources\004\004.docx" />
+    <None Include="TestCases\Script\Sources\005\005.docx" />
+    <None Include="TestCases\Script\Sources\006\006.docx" />
+    <None Include="TestCases\Script\Sources\007\007.docx" />
+    <None Include="TestCases\Script\Sources\008\008.docx" />
+    <None Include="TestCases\Script\Sources\009\009.docx" />
+    <None Include="TestCases\Script\Sources\009\009.pfx" />
+    <None Include="TestCases\Script\Sources\010\010.docx" />
+    <None Include="TestCases\Script\Sources\010\010.pfx" />
+    <None Include="TestCases\Script\Sources\011\011.docx" />
+    <None Include="TestCases\Script\Sources\011\011.pfx" />
+    <None Include="TestCases\Script\Sources\012\012.docx" />
+    <None Include="TestCases\Script\Sources\012\012.pfx" />
+    <None Include="TestCases\Script\Sources\020\020.docx" />
+    <None Include="TestCases\Script\Sources\021\021.docx" />
+    <None Include="TestCases\Script\Sources\022\022.docx" />
+    <None Include="TestCases\Script\Sources\023\023.docx" />
+    <None Include="TestCases\Script\Sources\024\024.docx" />
+    <None Include="TestCases\Script\Sources\025\025.docx" />
+    <None Include="TestCases\Script\Sources\026\026.docx" />
+    <None Include="TestCases\Script\Sources\027\027.docx" />
+    <None Include="TestCases\Script\Sources\028\028.docx" />
+    <None Include="TestCases\Script\Sources\029\029.docx" />
+    <None Include="TestCases\Script\Sources\030\030.docx" />
+    <None Include="TestCases\Script\Sources\031\031.docx" />
+    <None Include="TestCases\Script\Sources\032\032.docx" />
+    <None Include="TestCases\Script\Sources\033\033.docx" />
+    <None Include="TestCases\Script\Sources\034\034.docx" />
+    <None Include="TestCases\Script\Sources\035\035.docx" />
+    <None Include="TestCases\Script\Sources\036\036.docx" />
+    <None Include="TestCases\Script\Sources\037\037.docx" />
+    <None Include="TestCases\Script\Sources\038\038.docx" />
+    <None Include="TestCases\Script\Sources\039\039.docx" />
+    <None Include="TestCases\Script\Sources\040\040.docx" />
+    <None Include="TestCases\Script\Sources\041\041.docx" />
+    <None Include="TestCases\Script\Sources\042\042.docx" />
+    <None Include="TestCases\Script\Sources\043\043.docx" />
+    <None Include="TestCases\Script\Sources\044\044.docx" />
+    <None Include="TestCases\Script\Sources\045\045.docx" />
+    <None Include="TestCases\Script\Sources\046\046Get.docx" />
+    <None Include="TestCases\Script\Sources\046\046Set.docx" />
+    <None Include="TestCases\Script\Sources\047\047.docx" />
+    <None Include="TestCases\Script\Sources\048\048.docx" />
+    <None Include="TestCases\Script\Sources\049\049.docx" />
+    <None Include="TestCases\Script\Sources\050\050.docx" />
+    <None Include="TestCases\Script\Sources\051\051.docx" />
+    <None Include="TestCases\Script\Sources\052\052.docx" />
+    <None Include="TestCases\Script\Sources\053\053.docx" />
+    <None Include="TestCases\Script\Sources\054\054.docx" />
+    <None Include="TestCases\Script\Sources\055\055.docx" />
+    <None Include="TestCases\Script\Sources\056\056.docx" />
+    <None Include="TestCases\Script\Sources\057\057.docx" />
+    <None Include="TestCases\Script\Sources\058\058.docx" />
+    <None Include="TestCases\Script\Sources\059\059.docx" />
+    <None Include="TestCases\Script\Sources\059\059.pdf" />
+    <None Include="TestCases\Script\Sources\060\060.docx" />
+    <None Include="TestCases\Script\Sources\061\061.docx" />
+    <None Include="TestCases\Script\Sources\062\062.docx" />
+    <None Include="TestCases\Script\Sources\063\063.docx" />
+    <None Include="TestCases\Script\Sources\064\064.docx" />
+    <None Include="TestCases\Script\Sources\065\065.docx" />
+    <None Include="TestCases\Script\Sources\066\066.docx" />
+    <None Include="TestCases\Script\Sources\067\067.docx" />
+    <None Include="TestCases\Script\Sources\068\068.docx" />
+    <None Include="TestCases\Script\Sources\069\069.docx" />
+    <None Include="TestCases\Script\Sources\070\070.docx" />
+    <None Include="TestCases\Script\Sources\071\071.docx" />
+    <None Include="TestCases\Script\Sources\072\072.docx" />
+    <None Include="TestCases\Script\Sources\073\073.docx" />
+    <None Include="TestCases\Script\Sources\074\074.docx" />
+    <None Include="TestCases\Script\Sources\075\075.docx" />
+    <None Include="TestCases\Script\Sources\076\076.docx" />
+    <None Include="TestCases\Script\Sources\077\077.docx" />
+    <None Include="TestCases\Script\Sources\078\078.docx" />
+    <None Include="TestCases\Script\Sources\079\079.docx" />
+    <None Include="TestCases\Script\Sources\080\080.docx" />
+    <None Include="TestCases\Script\Sources\081\081.docx" />
+    <None Include="TestCases\Script\Sources\082\082.docx" />
+    <None Include="TestCases\Script\Sources\083\083.docx" />
+    <None Include="TestCases\Script\Sources\084\084.docx" />
+    <None Include="TestCases\Script\Sources\085\085.docx" />
+    <None Include="TestCases\Script\Sources\086\086.docx" />
+    <None Include="TestCases\Script\Sources\087\087.docx" />
+    <None Include="TestCases\Script\Sources\088\088.docx" />
+    <None Include="TestCases\Script\Sources\088\088.pfx" />
+    <None Include="TestCases\Script\Sources\089\089.docx" />
+    <None Include="TestCases\Script\Sources\090\090Get.docx" />
+    <None Include="TestCases\Script\Sources\090\090Set1.docx" />
+    <None Include="TestCases\Script\Sources\090\090Set2.docx" />
+    <None Include="TestCases\Script\Sources\090\090Set3.docx" />
+    <None Include="TestCases\Script\Sources\091\091Get.docx" />
+    <None Include="TestCases\Script\Sources\091\091Set1.docx" />
+    <None Include="TestCases\Script\Sources\091\091Set2.docx" />
+    <None Include="TestCases\Script\Sources\091\091Set3.docx" />
+    <None Include="TestCases\Script\Sources\092\092.pfx" />
+    <None Include="TestCases\Script\Sources\092\092.docx" />
+    <None Include="TestCases\Script\Sources\093\093Get.docx" />
+    <None Include="TestCases\Script\Sources\093\093Set.docx" />
+    <None Include="TestCases\Script\Sources\095\095Get.docx" />
+    <None Include="TestCases\Script\Sources\095\095Set-1.docx" />
+    <None Include="TestCases\Script\Sources\095\095Set-2.docx" />
+    <None Include="TestCases\Script\Sources\095\095Set-3.docx" />
+    <None Include="TestCases\Script\Sources\096\096.docx" />
+    <None Include="TestCases\Script\Sources\097\097.docx" />
+    <None Include="TestCases\Script\Sources\098\098.docx" />
+    <None Include="TestCases\Script\Sources\099\099.docx" />
+    <None Include="TestCases\Script\Sources\099\099.thmx" />
+    <None Include="TestCases\Script\Sources\100\100.docx" />
+    <None Include="TestCases\Script\Sources\100\100.thmx" />
+    <None Include="TestCases\Script\Sources\101\101.docx" />
+    <None Include="TestCases\Script\Sources\101\101.thmx" />
+    <None Include="TestCases\Script\Sources\102\102Get.docx" />
+    <None Include="TestCases\Script\Sources\102\102Set.docx" />
+    <None Include="TestCases\Script\Sources\103\103join1.docx" />
+    <None Include="TestCases\Script\Sources\103\103join2.docx" />
+    <None Include="TestCases\Script\Sources\103\103join3.docx" />
+    <None Include="TestCases\Script\Sources\104\104.docx" />
+    <None Include="TestCases\Script\Sources\105\105.docx" />
+    <None Include="TestCases\Script\Sources\106\106.docx" />
+    <None Include="TestCases\Script\Sources\107\107.docx" />
+    <None Include="TestCases\Script\Sources\108\108.docx" />
+    <None Include="TestCases\Script\Sources\109\109.docx" />
+    <None Include="TestCases\Script\Sources\110\110.docx" />
+    <None Include="TestCases\Script\Sources\111\111.docx" />
+    <None Include="TestCases\Script\Sources\112\112.docx" />
+    <None Include="TestCases\Script\Sources\113\113.docx" />
+    <None Include="TestCases\Script\Sources\114\114.docx" />
+    <None Include="TestCases\Script\Sources\115\115.docx" />
+    <None Include="TestCases\Script\Sources\116\116.docx" />
+    <None Include="TestCases\Script\Sources\117\117.docx" />
+    <None Include="TestCases\Script\Sources\118\118.docx" />
+    <None Include="TestCases\Script\Sources\119\119.docx" />
+    <None Include="TestCases\Script\Sources\120\120.docx" />
+    <None Include="TestCases\Script\Sources\121\121.docx" />
+    <None Include="TestCases\Script\Sources\122\122.docx" />
+    <None Include="TestCases\Script\Sources\124\124.docx" />
+    <None Include="TestCases\Script\Sources\123\123.docx" />
+    <None Include="TestCases\Script\Sources\125\125.docx" />
+    <None Include="TestCases\Script\Sources\126\126.docx" />
+    <None Include="TestCases\Script\Sources\127\127.docx" />
+    <None Include="TestCases\Script\Sources\128\128.docx" />
+    <None Include="TestCases\Script\Sources\129\129.docx" />
+    <None Include="TestCases\Script\Sources\130\130.docx" />
+    <None Include="TestCases\Script\Sources\131\131.docx" />
+    <None Include="TestCases\Script\Sources\132\132.docx" />
+    <None Include="TestCases\Script\Sources\133\133.docx" />
+    <None Include="TestCases\Script\Sources\134\134.docx" />
+    <None Include="TestCases\Script\Sources\135\135.docx" />
+    <None Include="TestCases\Testing Scenarios.docx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TestCases\Input\" />
+    <Folder Include="TestCases\Output\" />
+    <Folder Include="TestCases\Results\" />
+    <Folder Include="TestCases\Script\Sources\013\" />
+    <Folder Include="TestCases\Script\Sources\014\" />
+    <Folder Include="TestCases\Script\Sources\015\" />
+    <Folder Include="TestCases\Script\Sources\016\" />
+    <Folder Include="TestCases\Script\Sources\017\" />
+    <Folder Include="TestCases\Script\Sources\018\" />
+    <Folder Include="TestCases\Script\Sources\019\" />
+    <Folder Include="TestCases\Script\Sources\136\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>c:\windows\Microsoft.NET\Framework\v2.0.50727\installutil.exe "$(TargetPath)"</PostBuildEvent>
+    <PreBuildEvent>copy ..\..\OpenXml.PowerTools.dll-Help.xml .</PreBuildEvent>
+  </PropertyGroup>
+</Project>

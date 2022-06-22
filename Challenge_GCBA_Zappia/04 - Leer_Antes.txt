@@ -1,0 +1,26 @@
+/*************************************************************************************************************
+* Programa / Procedimiento / Función / Clase / Script: Challenge_GCBA_Zappia                                 *
+**************************************************************************************************************
+* Descripción: ChallengeGCBA - Archivo de Solución VS2022 que contiene Soluciones, códigos, BD, etc.         *
+* Autor      : Julián Marcelo Zappia                                                                         *
+* Fecha      : 21/06/2022                                                                                    *
+*************************************************************************************************************/
+
+En esta solución encontrarán todo el desarrollo del "Challenge" agrupados.
+
+En las carpeta "00 - Documentación": se encuentra la documentación creada para ser enviada por correo 
+electrónico, de acuerdo a requerimientos de las sentencias del "Challenge", y otros archivos.
+Los archivos pueden ser abiertos con cualquier aplicación sencilla de oficina.
+
+En las carpeta "01 - Solución VS2022": solución realizada en Visual Studio 2022 que agrupa todas las carpetas 
+del "Challenge". Allí se encuentra el archivo .sln por si se necesita consultar independientemente de la 
+agrupación de carpetas. Contiene varios lenguajes de programación, con predominio de C#.
+Intenta ser una App que cumpla con todo lo solicitado en el ejercicio de evaluación, que cumpla con los 
+requerimientos mínimos. Desarrollo completado en un 80%. La solución se carga, como la presente, con Visual 
+Studio 2022, .NET Framework 6.0, o similar / compatible. Los archivos SQL que podrán observar, solo son pruebas.
+
+En las carpeta "02 - Solución SQL": solución exclusiva para archivos generados en SQL y T-SQL.
+Para ejecutar en Microsoft SQL Server Management Studio 19, o similar / compatible.
+
+
+En la carpeta 03 - "Power BI": archivos de Power BI con uso de datos ejemplo.

@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>Challenge_GCBA_Zappia_VS2022</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{bac0e7f8-5214-4263-ac19-d00cf9a9306e}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>Challenge_GCBA_Zappia</RootNamespace>
+    <AssemblyName>Challenge_GCBA_Zappia</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <GenerateCreateScript>True</GenerateCreateScript>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <SqlCodeAnalysisRules>+!Microsoft.Rules.Data.SR0001;+!Microsoft.Rules.Data.SR0004;+!Microsoft.Rules.Data.SR0005;+!Microsoft.Rules.Data.SR0006;+!Microsoft.Rules.Data.SR0007;+!Microsoft.Rules.Data.SR0008;+!Microsoft.Rules.Data.SR0009;+!Microsoft.Rules.Data.SR0010;+!Microsoft.Rules.Data.SR0011;+!Microsoft.Rules.Data.SR0012;+!Microsoft.Rules.Data.SR0013;+!Microsoft.Rules.Data.SR0014;+!Microsoft.Rules.Data.SR0015;+!Microsoft.Rules.Data.SR0016</SqlCodeAnalysisRules>
+    <RunSqlCodeAnalysis>True</RunSqlCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="System\" />
+    <Folder Include="System1\" />
+    <Folder Include="System2\" />
+    <Folder Include="System3\" />
+    <Folder Include="OpenXMLTools" />
+    <Folder Include="System4\" />
+    <Folder Include="SQL" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="DataSet.xsd" />
+    <None Include="DataSet.xss" />
+    <None Include="FrmEdArticulo.resx" />
+    <None Include="FrmEdDepartamento.resx" />
+    <None Include="FrmEdEmpleado.resx" />
+    <None Include="FrmEdMarca.resx" />
+    <None Include="frmEdMedida.resx" />
+    <None Include="FrmEdOrden.resx" />
+    <None Include="FrmEdProveedor.resx" />
+    <None Include="frmEdSolicitud.resx" />
+    <None Include="Ingreso.resx" />
+    <None Include="MainView.resx" />
+    <None Include="Model1.Context.tt" />
+    <None Include="Model1.edmx" />
+    <None Include="Model1.edmx.diagram" />
+    <None Include="Model1.tt" />
+    <None Include="packages.config" />
+    <None Include="DataSet.xsc" />
+    <None Include="OpenXml Power Tools.csproj" />
+    <None Include="OpenXml Power Tools.csproj.vspscc" />
+    <None Include="OpenXml Power Tools.sln" />
+    <None Include="OpenXml Power Tools.vssscc" />
+    <None Include="OpenXml.PowerTools.dll-Help.xml" />
+    <None Include="OpenXMLTools\OpenXml Power Tools.csproj" />
+    <None Include="OpenXMLTools\OpenXml Power Tools.csproj.vspscc" />
+    <None Include="OpenXMLTools\OpenXml Power Tools.sln" />
+    <None Include="OpenXMLTools\OpenXml Power Tools.vssscc" />
+    <None Include="OpenXMLTools\OpenXml.PowerTools.dll-Help.xml" />
+    <None Include="OpenXMLTools\Clean.ps1" />
+    <None Include="OpenXMLTools\CleanAll.ps1" />
+    <None Include="OpenXMLTools\RunAll.ps1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmEdArticulo.cs" />
+    <Compile Include="FrmEdArticulo.Designer.cs" />
+    <Compile Include="FrmEdDepartamento.cs" />
+    <Compile Include="FrmEdDepartamento.Designer.cs" />
+    <Compile Include="FrmEdEmpleado.cs" />
+    <Compile Include="FrmEdEmpleado.Designer.cs" />
+    <Compile Include="FrmEdMarca.cs" />
+    <Compile Include="FrmEdMarca.Designer.cs" />
+    <Compile Include="frmEdMedida.cs" />
+    <Compile Include="frmEdMedida.Designer.cs" />
+    <Compile Include="FrmEdOrden.cs" />
+    <Compile Include="FrmEdOrden.Designer.cs" />
+    <Compile Include="FrmEdProveedor.cs" />
+    <Compile Include="FrmEdProveedor.Designer.cs" />
+    <Compile Include="frmEdSolicitud.cs" />
+    <Compile Include="frmEdSolicitud.Designer.cs" />
+    <Compile Include="Ingreso.cs" />
+    <Compile Include="Ingreso.Designer.cs" />
+    <Compile Include="MainView.cs" />
+    <Compile Include="MainView.Designer.cs" />
+    <Compile Include="Model1.Context.cs" />
+    <Compile Include="Model1.cs" />
+    <Compile Include="Model1.Designer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Usuarios.cs" />
+    <Compile Include="System\ComponentModel.cs" />
+    <Compile Include="System1\Data.cs" />
+    <Compile Include="Form.cs" />
+    <Compile Include="IngresoEntities.cs" />
+    <Compile Include="DataSet.Designer.cs" />
+    <Compile Include="System2\Xml.cs" />
+    <Compile Include="System3\CodeDom.cs" />
+    <Compile Include="DataSetBase.cs" />
+    <Compile Include="DataSetBase1.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="OpenXmlPowerToolsSnapin.cs" />
+    <Compile Include="OpenXMLTools\GlobalSuppressions.cs" />
+    <Compile Include="OpenXMLTools\OpenXmlPowerToolsSnapin.cs" />
+    <Compile Include="OpenXMLTools\BackgroundAccessor.cs" />
+    <Compile Include="OpenXMLTools\ChangeAccessor.cs" />
+    <Compile Include="OpenXMLTools\ChartsheetAccessor.cs" />
+    <Compile Include="OpenXMLTools\CommentAccessor.cs" />
+    <Compile Include="OpenXMLTools\ContentFormatAccessor.cs" />
+    <Compile Include="OpenXMLTools\ContentStyleAccessor.cs" />
+    <Compile Include="OpenXMLTools\CorePropertiesAccesor.cs" />
+    <Compile Include="OpenXMLTools\CustomPropertiesAccesor.cs" />
+    <Compile Include="OpenXMLTools\CustomXmlAccessor.cs" />
+    <Compile Include="OpenXMLTools\DigitalSignatureAccessor.cs" />
+    <Compile Include="OpenXMLTools\DocumentBuilder.cs" />
+    <Compile Include="OpenXMLTools\DocumentExtensions.cs" />
+    <Compile Include="OpenXMLTools\DocumentManager.cs" />
+    <Compile Include="OpenXMLTools\FooterAccessor.cs" />
+    <Compile Include="OpenXMLTools\HeaderAccessor.cs" />
+    <Compile Include="OpenXMLTools\IndexAccessor.cs" />
+    <Compile Include="OpenXMLTools\OpenXmlDocument.cs" />
+    <Compile Include="OpenXMLTools\PictureAccessor.cs" />
+    <Compile Include="OpenXMLTools\PowerToolsExtensions.cs" />
+    <Compile Include="OpenXMLTools\SettingAccessor.cs" />
+    <Compile Include="OpenXMLTools\SharedStringsAccesor.cs" />
+    <Compile Include="OpenXMLTools\SpreadsheetDocument.cs" />
+    <Compile Include="OpenXMLTools\SpreadsheetDocumentManager.cs" />
+    <Compile Include="OpenXMLTools\SpreadSheetStyleAccessor.cs" />
+    <Compile Include="OpenXMLTools\SpreadSheetTableAccesor.cs" />
+    <Compile Include="OpenXMLTools\StyleAccessor.cs" />
+    <Compile Include="OpenXMLTools\ThemeAccessor.cs" />
+    <Compile Include="OpenXMLTools\TOAAccessor.cs" />
+    <Compile Include="OpenXMLTools\TOCAccessor.cs" />
+    <Compile Include="OpenXMLTools\TOFAccessor.cs" />
+    <Compile Include="OpenXMLTools\WatermarkAccesor.cs" />
+    <Compile Include="OpenXMLTools\WordprocessingDocument.cs" />
+    <Compile Include="OpenXMLTools\WordprocessingDocumentManager.cs" />
+    <Compile Include="OpenXMLTools\WorksheetAccessor.cs" />
+    <Compile Include="OpenXMLTools\AcceptOpenXmlChangeCmdlet.cs" />
+    <Compile Include="OpenXMLTools\AddOpenXmlContentCmdlet.cs" />
+    <Compile Include="OpenXMLTools\AddOpenXmlDigitalSignatureCmdlet.cs" />
+    <Compile Include="OpenXMLTools\AddOpenXmlDocumentIndexCmdlet.cs" />
+    <Compile Include="OpenXMLTools\AddOpenXmlDocumentTOACmdlet.cs" />
+    <Compile Include="OpenXMLTools\AddOpenXmlDocumentTOCCmdlet.cs" />
+    <Compile Include="OpenXMLTools\AddOpenXmlDocumentTOFCmdlet.cs" />
+    <Compile Include="OpenXMLTools\AddOpenXmlPictureCmdlet.cs" />
+    <Compile Include="OpenXMLTools\AddOpenXmlSpreadSheetTableCmdlet.cs" />
+    <Compile Include="OpenXMLTools\ExportOpenXmlSpreadsheetCmdlet.cs" />
+    <Compile Include="OpenXMLTools\ExportOpenXmlToHtmlCmdlet.cs" />
+    <Compile Include="OpenXMLTools\ExportOpenXmlWordprocessingCmdlet.cs" />
+    <Compile Include="OpenXMLTools\GetOpenXmlBackgroundCmdlet.cs" />
+    <Compile Include="OpenXMLTools\GetOpenXmlCommentCmdlet.cs" />
+    <Compile Include="OpenXMLTools\GetOpenXmlCustomXmlDataCmdlet.cs" />
+    <Compile Include="OpenXMLTools\GetOpenXmlDigitalSignatureCmdlet.cs" />
+    <Compile Include="OpenXMLTools\GetOpenXmlDocumentCmdlet.cs" />
+    <Compile Include="OpenXMLTools\GetOpenXmlFooterCmdlet.cs" />
+    <Compile Include="OpenXMLTools\GetOpenXmlHeaderCmdlet.cs" />
+    <Compile Include="OpenXMLTools\GetOpenXmlStyleCmdlet.cs" />
+    <Compile Include="OpenXMLTools\GetOpenXmlThemeCmdlet.cs" />
+    <Compile Include="OpenXMLTools\GetOpenXmlWatermarkCmdlet.cs" />
+    <Compile Include="OpenXMLTools\LockOpenXmlDocumentCmdlet.cs" />
+    <Compile Include="OpenXMLTools\MergeOpenXmlDocumentCmdlet.cs" />
+    <Compile Include="OpenXMLTools\OpenXmlCmdlet.cs" />
+    <Compile Include="OpenXMLTools\RemoveOpenXmlCommentCmdlet.cs" />
+    <Compile Include="OpenXMLTools\RemoveOpenXmlDigitalSignatureCmdlet.cs" />
+    <Compile Include="OpenXMLTools\RemoveOpenXmlPersonalInformationCmdlet.cs" />
+    <Compile Include="OpenXMLTools\SelectOpenXmlStringCmdlet.cs" />
+    <Compile Include="OpenXMLTools\SetOpenXmlBackgroundCmdlet.cs" />
+    <Compile Include="OpenXMLTools\SetOpenXmlContentFormatCmdlet.cs" />
+    <Compile Include="OpenXMLTools\SetOpenXmlContentStyleCmdlet.cs" />
+    <Compile Include="OpenXMLTools\SetOpenXmlCustomXmlDataCmdlet.cs" />
+    <Compile Include="OpenXMLTools\SetOpenXmlFooterCmdlet.cs" />
+    <Compile Include="OpenXMLTools\SetOpenXmlHeaderCmdlet.cs" />
+    <Compile Include="OpenXMLTools\SetOpenXmlSpreadSheetCellStyleCmdlet.cs" />
+    <Compile Include="OpenXMLTools\SetOpenXmlSpreadSheetCellValueCmdlet.cs" />
+    <Compile Include="OpenXMLTools\SetOpenXmlSpreadSheetColumnWidthCmdlet.cs" />
+    <Compile Include="OpenXMLTools\SetOpenXmlStyleCmdlet.cs" />
+    <Compile Include="OpenXMLTools\SetOpenXmlThemeCmdlet.cs" />
+    <Compile Include="OpenXMLTools\SetOpenXmlWatermarkCmdlet.cs" />
+    <Compile Include="OpenXMLTools\SplitOpenXmlDocumentCmdlet.cs" />
+    <Compile Include="OpenXMLTools\AssemblyInfo.cs" />
+    <Compile Include="DataSetBase2.cs" />
+    <Compile Include="SqlConnection.cs" />
+    <Compile Include="sender.cs" />
+    <Compile Include="nameof.cs" />
+    <Compile Include="NameofNewStruct1.cs" />
+    <Compile Include="sql.cs" />
+    <Compile Include="SqlCommand.cs" />
+    <Compile Include="System4\Windows.cs" />
+    <Compile Include="IngresoBase.cs" />
+    <Compile Include="IngresoBaseBaseBaseBase.cs" />
+    <Compile Include="DataTable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="SQL\01 - SQLIniciar.sql" />
+    <Build Include="SQL\02 - SQL SchemaInicial.sql" />
+    <Build Include="SQL\04 - ClientesDB_Recuperada_Corregida.sql" />
+    <Build Include="SQL\03 - ClientesDB_Recuperada.sql" />
+    <Build Include="Procedure1.sql" />
+    <Build Include="SQL\10 - Consulta_Prueba.sql" />
+    <Build Include="SQL\05 - Genera dboClientes.sql" />
+    <Build Include="SQL\06 - Genera_dboItems.sql" />
+    <Build Include="SQL\07 - Genera_dboCategorias.sql" />
+    <Build Include="SQL\08 - Genera_dboOrdenes.sql" />
+  </ItemGroup>
+</Project>

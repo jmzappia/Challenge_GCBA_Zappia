@@ -1,0 +1,11 @@
+El presente trabajo en Power BI Desktop fue realizado con la finalidad de mostrar mis conocimientos al respecto
+de la aplicación, y es solo a modo de ejemplo.
+
+Los datos obtenidos no son reales; se obtuvo una planilla de Excel muy completa, pero con datos de España de los
+años 2018 y 2019.
+
+Esta utilización es porque no cuento con fuentes de datos apropiadas.
+
+Saludos cordiales.
+
+Julián Marcelo Zappia

@@ -34,12 +34,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		ClientesOk.xls = ClientesOk.xls
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Para Entregar", "Para Entregar", "{625217B9-A0CB-488D-A38A-D5462E190C06}"
+	ProjectSection(SolutionItems) = preProject
+		Create_Tables.sql = Create_Tables.sql
+		Respuestas_Negocio.sql = Respuestas_Negocio.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{72F7C1E3-D05C-485D-B279-2F470299713C}.Default|Default.ActiveCfg = Default
+		{056B210A-8F22-43E8-A709-935DBFF08FAD}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
